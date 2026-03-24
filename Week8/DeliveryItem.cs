@@ -15,6 +15,6 @@ public abstract class DeliveryItem
 
     public virtual void PrintInfo()
     {
-        Console.WriteLine($"TrackingNumber: {TrackingNumber}, Weight: {Weight}");
+        Console.WriteLine($"TrackingNumber: {TrackingNumber};\nWeight: {Weight}");
     }
 }
